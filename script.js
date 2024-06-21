@@ -40,7 +40,7 @@ icon.addEventListener("click", () => {
         bo1 = 0;
     }
     else {
-        icon.setAttribute("src", "images/110801_sun_icon.png");
+        icon.setAttribute("src", "https://soltube.live/images/110801_sun_icon.png");
         root_theme.style.setProperty('--bg', 'white');
         root_theme.style.setProperty('--black', 'black');
         icon.classList.toggle("ic");
