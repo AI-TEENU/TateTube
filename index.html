@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
+    <link rel="icon" type="image/x-icon" href="/images/logo-TateTube.png"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TateTube</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <nav class="flex-div">
+        <div class="nav-left flex-div">
+            <img src="images/menu.png" class="menu-icon">
+            <a href="index.html"><img src="images/tatetubelogo.png" class="logo"></a>
+        </div>
+        <div class="nav-middle flex-div">
+            <div class="search-box flex-div">
+                <input type="text" placeholder="Search">
+                <img src="images/search.png">
+            </div>
+            <!-- <div><i class="fa fa-camera-retro"></i> fa-camera-retro</div> -->
+        <div class="nav-left flex-div">
+            <img src="images/110827_moon_icon.png" style="width: 25px; height: 25px;"alt="" id="icon-bg" class="ic"> 
+            <!-- <?xml version="1.0" ?><!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'><svg enable-background="new 0 0 512 512" height="30px" id="Layer_1" version="1.1" viewBox="0 0 512 512" width="30px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g><g><path d="M256,144c-61.75,0-112,50.25-112,112s50.25,112,112,112s112-50.25,112-112S317.75,144,256,144z M256,336    c-44.188,0-80-35.812-80-80c0-44.188,35.812-80,80-80c44.188,0,80,35.812,80,80C336,300.188,300.188,336,256,336z M256,112    c8.833,0,16-7.167,16-16V64c0-8.833-7.167-16-16-16s-16,7.167-16,16v32C240,104.833,247.167,112,256,112z M256,400    c-8.833,0-16,7.167-16,16v32c0,8.833,7.167,16,16,16s16-7.167,16-16v-32C272,407.167,264.833,400,256,400z M380.438,154.167    l22.625-22.625c6.25-6.25,6.25-16.375,0-22.625s-16.375-6.25-22.625,0l-22.625,22.625c-6.25,6.25-6.25,16.375,0,22.625    S374.188,160.417,380.438,154.167z M131.562,357.834l-22.625,22.625c-6.25,6.249-6.25,16.374,0,22.624s16.375,6.25,22.625,0    l22.625-22.624c6.25-6.271,6.25-16.376,0-22.625C147.938,351.583,137.812,351.562,131.562,357.834z M112,256    c0-8.833-7.167-16-16-16H64c-8.833,0-16,7.167-16,16s7.167,16,16,16h32C104.833,272,112,264.833,112,256z M448,240h-32    c-8.833,0-16,7.167-16,16s7.167,16,16,16h32c8.833,0,16-7.167,16-16S456.833,240,448,240z M131.541,154.167    c6.251,6.25,16.376,6.25,22.625,0c6.251-6.25,6.251-16.375,0-22.625l-22.625-22.625c-6.25-6.25-16.374-6.25-22.625,0    c-6.25,6.25-6.25,16.375,0,22.625L131.541,154.167z M380.459,357.812c-6.271-6.25-16.376-6.25-22.625,0    c-6.251,6.25-6.271,16.375,0,22.625l22.625,22.625c6.249,6.25,16.374,6.25,22.624,0s6.25-16.375,0-22.625L380.459,357.812z" fill="#1D1D1B"/></g></g></svg> -->
+        </div>
+        </div>
+        <div class="nav-right flex-div">
+            <img src="images/solupload.png">
+            <img src="images/more.png">
+            <img src="images/notification.png">
+            <a href="#" onclick="connectToPhantom()">
+                <img src="images/phant_logo.png" class="user-icon" alt="WalletConnect Logo">
+              </a>
+              
+        </div>
+    </nav>
+   <!----------  sidebar ----------->
+   <div class="sidebar">
+        <div class="shortcut-links">
+            <a href=""><img src="images/solhome.png"><p>Home</p></a>
+            <a href=""><img src="images/explore.png"><p>Explore</p></a>
+            <a href=""><img src="images/subscriprion.png"><p>Altscription</p></a>
+            <a href=""><img src="images/library.png"><p>Library</p></a>
+            <a href=""><img src="images/history.png"><p>History</p></a>
+            <a href=""><img src="images/playlist.png"><p>Playlist</p></a>
+            <a href=""><img src="images/messages.png"><p>Messages</p></a>
+            <a href=""><img src="images/show-more.png"><p>Show more</p></a>
+            <hr>
+        </div>
+        <div class="subscribed-list">
+            <h3>TateScribed</h3>
+            <a href=""><img src="images/Jack.png"><p>Jack</p></a>
+            <a href=""><img src="images/simon.png"><p>Simson</p></a>
+            <a href=""><img src="images/tom.png"><p>Tom</p></a>
+            <a href=""><img src="images/megan.png"><p>Megan</p></a>
+            <a href=""><img src="images/cameron.png"><p>Cameron</p></a>
+            <hr>
+        </div>
+        <div class="social-list">
+            <h3>SOCIAL'S</h3>
+            <a href="https://t.me/TateTubetoken" target="_blank"><img src="images/telegram_logo.png"><p>Telegram</p></a>
+            <a href="https://twitter.com/TateTubetoken" target="_blank"><img src="images/twitter_logo.png"><p>Twitter</p></a>
+            <a href="" target="_blank"><img src="images/reddit_logo.png"><p>Reddit</p></a>
+            <a href="" target="_blank"><img src="images/whitepaper_logo.png"><p>Whitepaper</p></a>
+        </div>
+   </div>
+
+<!------Main-------->
+
+<div class="container">
+    <div class="banner">
+        <div class="slider">
+            <a href="https://forms.gle/cjPPAv9rtTThhHTk8">
+                <img src="/images/Tetetubebanner.png" class="slider-img" alt="Banner Image 1">
+            </a>
+            
+        </div>
+    </div>
+    <div class="list-container">
+        <div class="vid-list">
+            <a href="play-video.html"><img src="images/tatte1.webp" 
+            class="thumbnail"></a>           
+            <div class="flex-div">
+                <img src="images/channels4_profile.jpg">
+                <div class="vid-info">
+                    <a href="play-video.html">Men Are Built To CONQUER | Andrew Tate Motivation</a>
+                    <p>Unconquerable</p>
+                    <p>350 Views &bull; 15 hours ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="vid-list">
+            <a href="seth-video.html"><img src="images/tatevid2.webp" class="thumbnail"></a>           
+            <div class="flex-div">
+                <img src="https://yt3.googleusercontent.com/NkZw4nSv3vueQS1Spw2c0ZF0omW3wk7GyNsFjlCjm2QjFZiY-kSL4Q_vBX3yMIcl2nW0iXxWvQ=s160-c-k-c0x00ffffff-no-rj">
+                <div class="vid-info">
+                    <a href="seth-video.html">CONTROL YOUR EMOTIONS</a>
+                    <p>Crypto Seth</p>
+                    <p>280 Views &bull; 1 days ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="vid-list">
+            <a href="virtual-video.html"><img src="/images/tatte3.webp" 
+            class="thumbnail"></a>           
+            <div class="flex-div">
+                <img src="https://yt3.googleusercontent.com/atj6qleGGxNX39X3zBIJ17oG3MdEfd90U8lL5MpqKhxboO20_FsOJIrnEKuEZvdiKjcTx6ajGg=s176-c-k-c0x00ffffff-no-rj">
+                <div class="vid-info">
+                    <a href="virtual-video.html">Stop Complaining Grow Up
+                    </a>
+                    <p>Virtual Bacon</p>
+                    <p>130 Views &bull; 3 days ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="vid-list">
+            <a href="Ncash-video.html"><img src="/images/tatte4.webp" class="thumbnail"></a>           
+            <div class="flex-div">
+                <img src="https://yt3.ggpht.com/gcEiWzq76ZWQhTmkSFe612dkvxvZ4Zn-hPfcQVHtjhUCJMQkBdfCr2tv790DQacnPv6v10-9AlY=s88-c-k-c0x00ffffff-no-rj">
+                <div class="vid-info">
+                    <a href="Ncash-video.html">FIX YOUR MIND IN 7 MINUTES </a>
+                    <p>NCashOfficial - Daily Crypto News</p>
+                    <p>280 Views &bull; 2 days ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="vid-list">
+            <a href="jamie-video.html"><img src="/images/lether.webp" class="thumbnail"></a>           
+            <div class="flex-div">
+                <img src="https://yt3.ggpht.com/W1tJbCsqY9iXTJ3_vwFvLeWijHZ4eX7U7PRRdrSCoQE3wN5JE5h-EVUWO-yASYAKDLLEvFdY=s88-c-k-c0x00ffffff-no-rj">
+                <div class="vid-info">
+                    <a href="jamie-video.html">LET HER LEAVE</a>
+                    <p>Jamie Tree</p>
+                    <p>200 Views &bull; 8 hours ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="vid-list">
+            <a href="news-video.html"><img src="/images/somebody.webp" class="thumbnail"></a>           
+            <div class="flex-div">
+                <img src="https://yt3.ggpht.com/ytc/APkrFKZKzolTxfMeCeb-98k_KSakBrGGu52pdY2UlLtv=s88-c-k-c0x00ffffff-no-rj">
+                <div class="vid-info">
+                    <a href="news-video.html">Andrew Tate's Speech NO ONE Wants To Hear</a>
+                    <p>ABC News In-depth</p>
+                    <p>380 Views &bull; 6 days ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="vid-list">
+            <a href="anthony-video.html"><img src="https://i.ytimg.com/vi/n7g6T6HNymo/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDXbMX1S9CwW0c9mKaJjk0r0Z83qA" class="thumbnail"></a>           
+            <div class="flex-div">
+                <img src="https://yt3.ggpht.com/ytc/APkrFKZ49W96UI1R4ZCAZJmuLFGYs-0TL-xkKPkoFNikCw=s88-c-k-c0x00ffffff-no-rj">
+                <div class="vid-info">
+                    <a href="anthony-video.html">How Andrew Tate Got Rich</a>
+                    <p>Anthony Pompliano</p>
+                    <p>360 Views &bull; 4 days ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="vid-list">
+            <a href="linus-video.html"><img src="/images/behard.webp" class="thumbnail"></a>           
+            <div class="flex-div">
+                <img src="https://yt3.googleusercontent.com/Vy6KL7EM_apxPSxF0pPy5w_c87YDTOlBQo3MADDF0Wl51kwxmt9wmRotnt2xQXwlrcyO0Xe56w=s176-c-k-c0x00ffffff-no-rj">
+                <div class="vid-info">
+                    <a href="linus-video.html">BE HARD ON YOURSELF</a>
+                    <p>Linus Tech Tips</p>
+                    <p>150 Views &bull; 3 days ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="vid-list">
+            <a href="discover-video.html"><img src="/images/devan.webp" class="thumbnail"></a>           
+            <div class="flex-div">
+                <img src="images/bitboy_logo.png">
+                <div class="vid-info">
+                    <a href="discover-video.html">Andrew Tate ~ Tourner Dans Le Vide</a>
+                    <p>Discover Crypto</p>
+                    <p>350 Views &bull; 8 hours ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="vid-list">
+            <a href="band-video.html"><img src="https://i.ytimg.com/vi/B6KTBC2V5BU/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAEw9LC5d4Uon9DrhMCi85JPXqSHg" class="thumbnail"></a>           
+            <div class="flex-div">
+                <img src="images/tateedit_logo.png">
+                <div class="vid-info">
+                    <a href="band-video.html">BOOST Andrew Tate Andrenaline Edit ⚡️</a>
+                    <p>BAND</p>
+                    <p>90 Views &bull; 2 days ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="vid-list">
+            <a href="whiteboard.html"><img src="/images/thespeach.webp" class="thumbnail"></a>           
+            <div class="flex-div">
+                <img src="https://yt3.ggpht.com/ytc/APkrFKb1D2wXvMvfIChCrww5vaaybl1MXt9LUT7CPALR=s88-c-k-c0x00ffffff-no-rj">
+                <div class="vid-info">
+                    <a href="whiteboard.html">The Speech That Will Make You Hard</a>
+                    <p>Whiteboard Crypto</p>
+                    <p>130 Views &bull; 3 days ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="vid-list">
+            <a href="uncovered.html"><img src="/images/theme.webp" class="thumbnail"></a>           
+            <div class="flex-div">
+                <img src="https://yt3.ggpht.com/bkZ0qJbmdjo_fY7yDp5ISHJ5Xd1LvVic3rwqns22M5-uFQflKZH8K4H3M0LG0p9E4N9fIb3OJB0=s88-c-k-c0x00ffffff-no-rj">
+                <div class="vid-info">
+                    <a href="uncovered.html">Andrew Tate Theme Song 2.0</a>
+                    <p>AI Uncovered</p>
+                    <p>100 Views &bull; 4 days ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="vid-list">
+            <a href="limc.html"><img src="/images/purpose.webp" class="thumbnail"></a>           
+            <div class="flex-div">
+                <img src="https://yt3.ggpht.com/ytc/APkrFKZNBWtLrakb7b6Wzq-PDNTfZVHsrzaOOYJeziTB=s88-c-k-c0x00ffffff-no-rj">
+                <div class="vid-info">
+                    <a href="limc.html">Andrew Tate: The Purpose of Life</a>
+                    <p>Lessons in Meme Culture</p>
+                    <p>190 Views &bull; 3 days ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="vid-list">
+            <a href="brain-video.html"><img src="/images/behard.webp" 
+            class="thumbnail"></a>           
+            <div class="flex-div">
+                <img src="https://yt3.ggpht.com/ytc/APkrFKY8WxpXHQlS4g3CX47DhcTZKvh8NQi-NVpp-oTUeQ=s88-c-k-c0x00ffffff-no-rj">
+                <div class="vid-info">
+                    <a href="brain-video.html">BE HARD ON YOURSELF</a>
+                    <p>Brian Jung</p>
+                    <p>130 Views &bull; 3 days ago</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="vid-list">
+            <a href="morecrypto-video.html"><img src="/images/train.webp" class="thumbnail"></a>           
+            <div class="flex-div">
+                <img src="https://yt3.ggpht.com/mtESpz2blzEDK8t1u7ej1CS9UM1QAhdXcp2AEhjvYjgOM-hlq93YFfCWt5MxQhGOmmcR_2rGoXg=s88-c-k-c0x00ffffff-no-rj">
+                <div class="vid-info">
+                    <a href="morecrypto-video.html">「 TRAIN HARDER 」Andrew Tate | Edit | 4K</a>
+                    <p>
+                        Crypto B</p>
+                    <p>50 Views &bull; 2 days ago</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+<hr>
+<footer>
+    <p>&copy; 2023 TateTube. All rights reserved.</p>
+    <ul>
+        <li><a href="" target="_blank">About Us</a></li>
+        <li><a href="" target="_blank">Road Map</a></li>
+        <li><a href="https://t.me/TateTubetoken" target="_blank">Community</a></li>
+        <li><a href="https://t.me/bip_3_9" target="_blank">Advertisement</a></li>
+    </ul>
+</footer>
+
+
+<script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
