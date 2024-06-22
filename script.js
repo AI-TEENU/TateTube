@@ -1,9 +1,12 @@
-var menuIcon = document.querySelector(".menu-icon");
-var sidebar = document.querySelector(".sidebar");
-var container = document.querySelector(".container");
 var icon = document.querySelector("#icon-bg");
 var container = document.querySelector("body");
 const root_theme = document. querySelector(':root');
+
+var menuIcon = document.querySelector(".menu-icon");
+var sidebar = document.querySelector(".sidebar");
+var container = document.querySelector(".container");
+
+
 menuIcon.onclick = function(){
     sidebar.classList.toggle("small-sidebar");
     container.classList.toggle("large-container");

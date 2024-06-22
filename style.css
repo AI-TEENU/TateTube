@@ -80,8 +80,7 @@ nav{
     top: 0;
     padding-left: 2%;
     padding-top: 80px;
-    overflow-y: auto; /* Enable vertical scrolling */
-    max-height: 100vh; /* Set a maximum height to enable scrolling */
+
 }
 .shortcut-links a img{
     width: 20px;
@@ -152,7 +151,7 @@ nav{
 }
 .small-sidebar hr{
     width: 50%;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
 }
 /*----------main----------*/
 
@@ -163,14 +162,18 @@ nav{
     padding-top: 20px;
     padding-bottom: 20px;
 }
+
 .large-container{
     padding-left: 7%;
 }
 
 .banner {
     width: 100%;
-    overflow: hidden;
-    position: relative;
+}
+
+.banner img{
+    width: 100%;
+    border-radius: 8px;
 }
 
 .slider {
