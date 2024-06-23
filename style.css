@@ -1,6 +1,33 @@
+@font-face {
+    font-family: myFirstFont1;
+    src: url(Resources/falling-sky-font/FallingSkyMedium-ved9.otf);
+}
+
+@font-face {
+    font-family: myFirstFont2;
+    src: url(Resources/swansea-font/Swansea-q3pd.ttf);
+}
+
+@font-face {
+    font-family: myFirstFont3;
+    src: url(Resources/DM_Sans/DMSans-VariableFont_opsz\,wght.ttf);
+}
+
+@font-face {
+    font-family: myFirstFont4;
+    src: url(Resources/ananda-black-font/AnandaBlackPersonalUseRegular-rg9Rx.ttf);
+}
+
+@font-face {
+    font-family: myFirstFont5;
+    src: url(Resources/hind-font/HindRegular-9YyOL.ttf);
+}
 :root {
     --bg: black;
     --black: white;
+    --grey: #f7f7f7;
+    --bblack: #acacac;
+    --border: rgba(255, 239, 239, 0.8);
 }
 h3 {
     color: var(--black);
@@ -12,12 +39,12 @@ h3 {
 *{
     margin: 0;
     padding: 0;
-    font-family: 'poppins', sans-serif;
+    font-family: myFirstFont3;
     box-sizing: border-box;
 }
 a{
     text-decoration: none;
-    color: #5a5a5a;
+    color: var(--black);
 }
 img{
     cursor: pointer;
@@ -82,6 +109,24 @@ nav{
     padding-top: 80px;
     overflow-y: auto; /* Enable vertical scrolling */
     max-height: 100vh; /* Set a maximum height to enable scrolling */
+    overflow-x: hidden;
+}
+.sidebar::-webkit-scrollbar {
+    width: 12px;
+}
+
+.sidebar::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+    /* Optional: to add rounded corners */
+}
+
+.sidebar::-webkit-scrollbar-thumb:hover {
+    background: #555;
 }
 .shortcut-links a img{
     width: 20px;
@@ -106,7 +151,7 @@ nav{
 .subscribed-list h3{
     font-size: 13px;
     margin: 20px 0;
-    color: #5a5a5a;
+    color: var(--bblack);
 }
 .subscribed-list a{
     display: flex;
@@ -123,7 +168,7 @@ nav{
 .social-list h3{
     font-size: 13px;
     margin: 20px 0;
-    color: #5a5a5a;
+    color: var(--bblack);
 }
 .social-list a{
     display: flex;
@@ -142,7 +187,7 @@ nav{
 
 
 .small-sidebar{
-    width: 5%;
+    width: 5.5%;
 }
 .small-sidebar a p{
     display: none;
@@ -203,7 +248,7 @@ nav{
     border-radius: 50%;
 }
 .vid-info{
-    color: #5a5a5a;
+    color: var(--bblack);
     font-size: 13px;
 }
 .vid-info a{

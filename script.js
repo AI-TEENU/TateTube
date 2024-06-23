@@ -36,18 +36,21 @@ var bo1 = 0;
 
 icon.addEventListener("click", () => {
     if (bo1 == 1) {
-        icon.setAttribute("src", "https://soltube.live/images/110827_moon_icon.png");
+        icon.setAttribute("src", "https://soltube.live/images/110801_sun_icon.png");
         root_theme.style.setProperty('--bg', 'black');
         root_theme.style.setProperty('--black', 'white');
         container.style.background = "black";
         container.style.color = "white";
+        icon.classList.toggle("ic");
         bo1 = 0;
+
     } else {
-        icon.setAttribute("src", "https://soltube.live/images/110801_sun_icon.png");
+        icon.setAttribute("src", "https://soltube.live/images/110827_moon_icon.png");
         root_theme.style.setProperty('--bg', 'white');
         root_theme.style.setProperty('--black', 'black');
         container.style.background = "white";
         container.style.color = "black";
+        icon.classList.toggle("ic");
         bo1 = 1;
     }
 });
