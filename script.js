@@ -2,11 +2,34 @@
 var icon = document.querySelector("#icon-bg");
 var container = document.querySelector("body");
 const root_theme = document.querySelector(':root');
-
 var menuIcon = document.querySelector(".menu-icon");
 var sidebar = document.querySelector(".sidebar");
 var container = document.querySelector(".container");
-
+window.addEventListener('load', async () => {
+        if (window.solana) {
+            try {
+                await window.solana.connect({ onlyIfTrusted: true });
+                console.log('Connected to Phantom wallet');
+            } catch (err) {
+                console.log('User is not connected to the wallet');
+            }
+        } else {
+            console.log('Phantom wallet not found. Please install it.');
+        }
+});
+document.getElementById('connect-button').addEventListener('click', async () => {
+        if (window.solana) {
+            try {
+                const response = await window.solana.connect();
+                console.log('Connected to Phantom wallet:', response.publicKey.toString());
+                // You can now interact with the wallet using response.publicKey
+            } catch (err) {
+                console.error('Connection to Phantom wallet failed:', err);
+            }
+        } else {
+            alert('Phantom wallet not found. Please install it.');
+        }
+});
 // Menu icon toggle
 menuIcon.onclick = function() {
     sidebar.classList.toggle("small-sidebar");
