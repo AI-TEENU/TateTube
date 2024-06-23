@@ -2551,7 +2551,7 @@ footer {
 }
 
 footer p {
-    color: #333;
+    color: var(--bblack);
     margin-top: 10px; /* Add top margin for spacing */
     font-size: 14px; /* Adjust the font size for mobile screens */
 }
