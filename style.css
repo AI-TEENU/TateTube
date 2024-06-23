@@ -140,7 +140,7 @@ nav{
     flex-wrap: wrap;
 }
 .shortcut-links a:first-child{
-    color: rgb(148, 44, 239);
+    color: rgb(227, 196, 0);
 }
 .sidebar hr{
     border: 0;
@@ -214,8 +214,11 @@ nav{
 
 .banner {
     width: 100%;
-    overflow: hidden;
-    position: relative;
+}
+
+.banner img{
+    width: 100%;
+    border-radius: 8px;
 }
 
 .slider {
