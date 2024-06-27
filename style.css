@@ -2879,3 +2879,16 @@ footer ul li a {
    .btn:active {
     transform: scale(0.9);
    }
+
+   
+   :root {
+    --input-text-color: white; /* Default text color for day (sun) mode */
+}
+
+ {
+    --input-text-color: black; /* Text color for night (moon) mode */
+}
+
+.search-box input {
+    color: var(--input-text-color); /* Use the variable for input text color */
+}
