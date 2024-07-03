@@ -29,6 +29,9 @@
     --bblack: #acacac;
     --border: rgba(255, 239, 239, 0.8);
 }
+#search {
+    color: var(--black);
+}
 h3 {
     color: var(--black);
 }
